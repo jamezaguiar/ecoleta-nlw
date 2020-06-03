@@ -1,39 +1,39 @@
-module.exports = {
-  env: {
-    es6: true,
-    node: true,
+{
+  "env": {
+    "es6": true,
+    "node": true
   },
-  extends: [
-    'airbnb-base',
-    'plugin:@typescript-eslint/recommended',
-    'prettier/@typescript-eslint',
-    'plugin:prettier/recommended',
+  "extends": [
+    "airbnb-base",
+    "plugin:@typescript-eslint/recommended",
+    "prettier/@typescript-eslint",
+    "plugin:prettier/recommended"
   ],
-  globals: {
-    Atomics: 'readonly',
-    SharedArrayBuffer: 'readonly',
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
   },
-  parser: '@typescript-eslint/parser',
-  parserOptions: {
-    ecmaVersion: 11,
-    sourceType: 'module',
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 11,
+    "sourceType": "module"
   },
-  plugins: ['@typescript-eslint', 'prettier'],
-  rules: {
-    'prettier/prettier': 'error',
-    'import/extensions': [
-      'error',
-      'ignorePackages',
+  "plugins": ["@typescript-eslint", "prettier"],
+  "rules": {
+    "class-methods-use-this": "off",
+    "camelcase": "off",
+    "prettier/prettier": "error",
+    "import/extensions": [
+      "error",
+      "ignorePackages",
       {
-        ts: 'never',
-      },
-    ],
-    'camelcase': 'off',
-    '@typescript-eslint/camelcase': 'off',
+        "ts": "never"
+      }
+    ]
   },
-  settings: {
-    'import/resolver': {
-      typescript: {},
-    },
-  },
-};
+  "settings": {
+    "import/resolver": {
+      "typescript": {}
+    }
+  }
+}
