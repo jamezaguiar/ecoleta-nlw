@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 import Knex from 'knex';
 
 export async function up(knex: Knex) {
