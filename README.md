@@ -12,7 +12,7 @@ O _Ecoleta_ é uma aplicação de cadastro de pontos de coleta de resíduos, des
 
 ![Cadastro](ecoleta-images/web/ecoleta-cadastro.png)
 
-## :phone: Mobile
+## :iphone: Mobile
 
 ![Início](ecoleta-images/mobile/inicio-ecoleta-mobile.png)
 ![Home](ecoleta-images/mobile/home-ecoleta-mobile.png)
